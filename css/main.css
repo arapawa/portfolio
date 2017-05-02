@@ -1,0 +1,87 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700|Roboto:400,400b,400i');
+
+/* BEGIN navbar */
+.navbar {
+  background-color: #1B998B;
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+
+.navbar-brand, .nav-link {
+  color: #F2EFED;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  color: #F2EFED;
+}
+/* END navbar */
+
+/* BEGIN jumbotron */
+.jumbotron {
+  background-color: #FDFCFC;
+  text-align: center;
+}
+/* END jumbotron */
+
+/* BEGIN card */
+.card {
+  margin-bottom: 5em;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+  /*height: auto;*/
+}
+
+.card-image {
+  height: auto;
+}
+
+img, .card-image{
+  height: 350px;
+}
+
+.card-title {
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+  margin: 0.5em 0;
+}
+/* END card */
+
+
+/* BEGIN misc body text */
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: #35393B;
+  background-color: #FDFCFC;
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+.headline {
+  color: #1B998B;
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+
+a {
+	color: #1B998B;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1B998B;
+}
+
+/* highlight */
+::selection {
+    background: #1B998B;
+    color: #F2EFED;
+}
+/* END misc body text */
