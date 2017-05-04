@@ -29,24 +29,49 @@
 
 /* BEGIN card */
 .card {
-  margin-bottom: 5em;
+  margin-bottom: 1.5em;
   background-color: rgba(0,0,0,0);
   border: none;
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
   /*height: auto;*/
+
 }
 
-.card-image {
-  height: auto;
+/*Scales project cover cards */
+.card-img{
+	height: auto;
+	width: 100%;
+
+}
+/* Scales project images */
+img{
+	width: 80%;
 }
 
-img, .card-image{
-  height: 350px;
+/* Hover Over effect for project cards */
+.card:hover{
+	background-color: #1B998B;
+	color: white;
+}
+
+.color-overlay figure{
+	background-color: #1B998B;
+}
+
+.color-overlay figure .card-img{
+	filter: opacity(1);
+	transition: all .2s ease;
+
+}
+
+.color-overlay:hover figure .card-img{
+	filter: opacity(.4);
+
 }
 
 .card-title {
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
-	text-align: center;
+  text-align: center;
   margin: 0.5em 0;
 }
 /* END card */
@@ -85,3 +110,5 @@ a:hover {
     color: #F2EFED;
 }
 /* END misc body text */
+
+
