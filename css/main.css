@@ -24,6 +24,8 @@
 .jumbotron {
   background-color: #FDFCFC;
   text-align: center;
+  margin: 0;
+  padding: 2em;
 }
 /* END jumbotron */
 
@@ -86,7 +88,7 @@ body {
 }
 
 h2 {
-  margin-top: 1em;
+  margin: 1em 0;
 }
 
 .headline {
@@ -111,4 +113,53 @@ a:hover {
 }
 /* END misc body text */
 
+/* BEGIN footer */
+footer {
+  height: 5em;
+}
 
+/* END footer */
+
+
+/* BEGIN About */
+.about {
+
+}
+.about h2 {
+  /*margin-top: 0;*/
+}
+
+/* END About */
+.contact {
+  margin-top: 1em;
+}
+
+/* BEGIN Contact */
+
+
+.social {
+  padding: 1em 0 1em 0;
+  /*margin-top: 1em;*/
+}
+
+.social-icons {
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 5%;
+
+}
+.social-icons li :hover, :active {
+  color: #552CA8;
+  cursor: pointer;
+}
+.social-icons li :visited {
+  color: #1B998B;
+}
+
+
+/* END contact social media icons */
