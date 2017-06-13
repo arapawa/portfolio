@@ -48,6 +48,8 @@
 /* Scales project images */
 img{
 	width: 80%;
+	display: block;
+	margin: 0 auto;
 }
 
 /* Hover Over effect for project cards */
