@@ -136,7 +136,25 @@ h2 {
 }
 
 
+/* Begin footer */
 
+footer {
+  width: 100%;
+  background-color: #1B998B;
+	color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  height: 3em;
+  margin-top: 10em;
+}
+i.fa-heart {
+  color: #552ca8;
+}
+code {
+  color: #35393B;
+}
+
+/* End footer */
 
 a {
 	color: #1B998B;
