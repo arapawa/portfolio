@@ -1,5 +1,9 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700|Roboto:400,400b,400i');
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700|Roboto:400,400b,400i|Dancing+Script'|'Jacques+Francois+Shadow');*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Jacques+Francois+Shadow|Poppins:300,400,700|Roboto:400,400b,400i');
+
 
 /* BEGIN navbar */
 .navbar {
@@ -22,7 +26,6 @@
 
 /* BEGIN jumbotron */
 .jumbotron {
-  background-color: #FDFCFC;
   text-align: center;
   margin: 0;
   padding: 2em;
@@ -93,14 +96,50 @@ h2 {
   margin: 1em 0;
 }
 
-.headline {
-  color: #1B998B;
+/*	HERO  */
+
+.hero{
+	height: 640px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("../img/hero.png");
+}
+.brief-about{
+	margin: 200px 0;
+}
+.headline, .lead {
+  color: #fff;
+  text-align: left;
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
 }
 
+.headline span{
+  color: #552ca8;
+}
+.headline{
+	font-size: 4em;
+	font-weight: 400;
+}
+
+
+.lead{
+	font-size: 1.75em;
+}
+
+.design{
+  font-family: 'Pacifico', cursive;
+}
+
+.build{
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+
+
+
+
 a {
 	color: #1B998B;
-
 }
 
 a:hover {
