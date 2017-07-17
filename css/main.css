@@ -85,13 +85,8 @@ body {
   color: #35393B;
   background-color: #FDFCFC;
   font-size: 18px;
-  height: 100%;
-  width: 100%;
-}
-
-section{
-	background-color: #FDFCFC;
-	z-index: 1;
+	height: 100%;
+	width: 100%;
 }
 
 h2 {
@@ -127,12 +122,12 @@ h2 {
 	font-size: 4em;
 	font-weight: 400;
 	text-align: left;
-	color: #fff;
+	color: #FFFFFF;
 }
 .brief-about .lead{
 	font-size: 1.75em;
 	text-align: left;
-	color: #fff;
+	color: #FFFFFF;
 }
 .design{
   font-family: 'Pacifico', cursive;
