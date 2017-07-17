@@ -115,7 +115,7 @@ h2 {
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
 }
 
-.headline, .lead, span{
+.headline span{
   color: #552ca8;
 }
 .brief-about .headline{
@@ -131,9 +131,11 @@ h2 {
 }
 .design{
   font-family: 'Pacifico', cursive;
+  color: #552ca8;
 }
 .build{
   font-family: 'Jacques Francois Shadow', cursive;
+  color: #552ca8;
 }
 
 /* END Hero */
