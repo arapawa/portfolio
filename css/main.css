@@ -26,6 +26,8 @@
   text-align: center;
   margin: 0;
   padding: 2em;
+  
+  position: relative;
 }
 /* END jumbotron */
 
@@ -83,7 +85,6 @@ body {
   color: #35393B;
   background-color: #FDFCFC;
   font-size: 18px;
-
 	height: 100%;
 	width: 100%;
 }
@@ -92,17 +93,12 @@ h2 {
   margin: 1em 0;
 }
 
-/*	HERO  */
-
+/*	HERO*/
 .hero{
-	height: 640px;
+	height: 500px;
 	width: 100%;
-	background-size: cover;
-	background-position: center center;
-	background-image: url("../img/hero.png");
 }
 .hero-text{
-
 	position: relative;
 }
 .hero-text .brief-about{
@@ -223,6 +219,14 @@ footer {
 .social-icons li :visited {
   color: #1B998B;
 }
-
-
 /* END contact social media icons */
+
+/* PARALLAX: Creates simple scrolling parallax, placed before the hero. */
+.parallax-container{
+	min-height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-image: url("../img/hero.png");
+	margin-bottom: 4em;
+}
