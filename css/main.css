@@ -83,7 +83,7 @@ body {
   color: #35393B;
   background-color: #FDFCFC;
   font-size: 18px;
-	
+
 	height: 100%;
 	width: 100%;
 }
@@ -102,7 +102,7 @@ h2 {
 	background-image: url("../img/hero.png");
 }
 .hero-text{
-	
+
 	position: relative;
 }
 .hero-text .brief-about{
@@ -119,19 +119,19 @@ h2 {
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
 }
 
-.headline span{
+.headline, .lead, span{
   color: #552ca8;
 }
 .brief-about .headline{
 	font-size: 4em;
 	font-weight: 400;
 	text-align: left;
-	color: #fff;
+	color: #FFFFFF;
 }
 .brief-about .lead{
 	font-size: 1.75em;
 	text-align: left;
-	color: #fff;
+	color: #FFFFFF;
 }
 .design{
   font-family: 'Pacifico', cursive;
