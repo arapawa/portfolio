@@ -93,17 +93,28 @@ h2 {
   margin: 1em 0;
 }
 
+/* PARALLAX: Creates simple scrolling parallax, placed before the hero. */
+.parallax-container{
+  min-height: 25em;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  /*background-image: url("../img/hero.png");*/
+  background-color: #1b998b;
+  margin-bottom: 4em;
+}
+
 /*	HERO*/
 .hero{
-	height: 500px;
+	height: 25em;
 	width: 100%;
 }
 .hero-text{
 	position: relative;
 }
 .hero-text .brief-about{
-  height: 200px;
-  margin-top: 100px;
+  height: 10em;
+  /*margin-top: 5em;*/
   transform: translate(0, 50%);
   position: absolute;
   top: 50%;
@@ -130,11 +141,11 @@ h2 {
 	color: #FFFFFF;
 }
 .design{
-  font-family: 'Pacifico', cursive;
+  /*font-family: 'Pacifico', cursive;*/
   color: #552ca8;
 }
 .build{
-  font-family: 'Jacques Francois Shadow', cursive;
+  /*font-family: 'Jacques Francois Shadow', cursive;*/
   color: #552ca8;
 }
 
@@ -221,13 +232,3 @@ footer {
   color: #1B998B;
 }
 /* END contact social media icons */
-
-/* PARALLAX: Creates simple scrolling parallax, placed before the hero. */
-.parallax-container{
-	min-height: 500px;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
-	background-image: url("../img/hero.png");
-	margin-bottom: 4em;
-}
