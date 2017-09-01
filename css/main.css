@@ -215,7 +215,6 @@ footer {
 
 }
 .social-icons li :hover, :active {
-  color: #552CA8;
   cursor: pointer;
 }
 .social-icons li :visited {
