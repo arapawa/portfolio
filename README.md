@@ -1,2 +1,2 @@
-# portfolio-2017
-Portfolio for Josh Braun (2017)
+# portfolio
+Portfolio for Josh Braun
